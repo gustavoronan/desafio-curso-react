@@ -1,0 +1,36 @@
+.section-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.txt-top{
+    color: var(--ct-color-font-primary);
+    padding: 25px;
+}
+
+.comments-section{
+    background-color: var(--ct-color-bg-tertiary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    background-color: var(--ct-color-bg-secondary);
+    width: 100%;
+    height: 120px;
+    color: var(--ct-color-font-tertiary);
+}
+
+@media (min-width: 576px){
+    footer{
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,22 @@
+
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--ct-color-bg-primary);
+    border: 1px solid var(--ct-color-bg-secondary);
+    color: var(--ct-color-font-secondary);
+    width: 280px;
+    height: 146px;
+    padding: 20px 25px;
+    border-radius: 12px;
+    margin: 0px 20px 20px 20px;
+}
+
+@media (min-width: 576px){
+    .comment-box{
+        width: 100%;
+        max-width: 100vh;
+        height: 74px;
+    }
+}

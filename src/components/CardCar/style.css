@@ -1,0 +1,23 @@
+.ct-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--ct-color-bg-secondary);
+    border-radius: 10px;
+    font-size: 13px;
+    color: var(--ct-color-font-primary);
+    padding: 0px 0px 10px;
+    margin-bottom: 25px;
+}
+
+.ct-card img{
+    width: 260px;
+}
+
+@media (min-width: 576px){
+    .ct-card{
+        width: 746px;
+        height: 352px;
+    }
+}
